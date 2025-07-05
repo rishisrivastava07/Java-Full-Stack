@@ -1,0 +1,37 @@
+[ {
+  "username" : "john_doe",
+  "fullName" : "John Doe",
+  "password" : "securePass123",
+  "emailId" : "john.doe@example.com",
+  "phoneNo" : "9876543210",
+  "hashedPassword" : "$2a$12$EHaUvkZRuFT27c9qJrvZ4eRfLWsnJyHT57gZG8JCntySTmoeoVzAK",
+  "userId" : "bb1c1c39-cc8f-47b0-8c60-319c68e8f560",
+  "ticketsBooked" : [ ]
+}, {
+  "username" : "alice_wonder",
+  "fullName" : "Alice Wonder",
+  "password" : "aliceSecure456",
+  "emailId" : "alice@example.com",
+  "phoneNo" : "9876501234",
+  "hashedPassword" : "$2a$12$.jXBo8Dzweki2.7IBevk/enXs9p8cE7A2UFjOEoWoIAteVgoJWCtK",
+  "userId" : "fbcfa375-9afa-41d1-a4bc-14c7b19dfd4d",
+  "ticketsBooked" : [ ]
+}, {
+  "username" : "rishi07",
+  "fullName" : "Rishi Srivastava",
+  "password" : "Rishi@123",
+  "emailId" : "rishi@xyz.com",
+  "phoneNo" : "1234567890",
+  "hashedPassword" : "$2a$10$V8TwGQQioKsGq1.tb4p4WusTqpvgDKd5XuuVU4bT96kapO1sFZfta",
+  "userId" : "a364ef86-93a0-4e23-a3e5-fb322256b1e2",
+  "ticketsBooked" : [ ]
+}, {
+  "username" : "suman",
+  "fullName" : "Suman Kumari",
+  "password" : "Suman@123",
+  "emailId" : "suman@gmail.com",
+  "phoneNo" : "12192839439",
+  "hashedPassword" : "$2a$10$7thsjuVzhv37oO1eGO/dkut.8.k1tix4.S9SJ707GnDA1yQt5kWri",
+  "userId" : "8191dbe6-c267-4b38-aea7-107e7960ad26",
+  "ticketsBooked" : [ ]
+} ]

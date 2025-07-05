@@ -1,0 +1,119 @@
+[ {
+  "trainNo": "14001",
+  "seats": [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1]],
+  "stationTimes": {
+    "Asansol": "06:00",
+    "Gaya": "08:30",
+    "Chhapra": "12:45"
+  },
+  "arrivalTime": "12:45",
+  "departureTime": "06:00"
+},
+  {
+    "trainNo": "14002",
+    "seats": [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1]],
+    "stationTimes": {
+      "Chhapra": "07:00",
+      "Gaya": "11:00",
+      "Asansol": "13:30"
+    },
+    "arrivalTime": "13:30",
+    "departureTime": "07:00"
+  },
+  {
+    "trainNo": "14003",
+    "seats": [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1]],
+    "stationTimes": {
+      "Asansol": "05:00",
+      "Jhajha": "07:15",
+      "Patna": "09:30"
+    },
+    "arrivalTime": "09:30",
+    "departureTime": "05:00"
+  },
+  {
+    "trainNo": "14004",
+    "seats": [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1]],
+    "stationTimes": {
+      "Patna": "06:00",
+      "Jhajha": "08:00",
+      "Asansol": "10:15"
+    },
+    "arrivalTime": "10:15",
+    "departureTime": "06:00"
+  },
+  {
+    "trainNo": "14005",
+    "seats": [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1]],
+    "stationTimes": {
+      "Howrah": "07:00",
+      "Kanpur": "13:30",
+      "Delhi": "18:00"
+    },
+    "arrivalTime": "18:00",
+    "departureTime": "07:00"
+  },
+  {
+    "trainNo": "14006",
+    "seats": [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1]],
+    "stationTimes": {
+      "Delhi": "06:00",
+      "Kanpur": "10:30",
+      "Howrah": "17:45"
+    },
+    "arrivalTime": "17:45",
+    "departureTime": "06:00"
+  },
+  {
+    "trainNo": "14007",
+    "seats": [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1]],
+    "stationTimes": {
+      "Delhi": "09:00",
+      "Agra": "12:00"
+    },
+    "arrivalTime": "12:00",
+    "departureTime": "09:00"
+  },
+  {
+    "trainNo": "14008",
+    "seats": [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1]],
+    "stationTimes": {
+      "Agra": "13:00",
+      "Mumbai": "23:00"
+    },
+    "arrivalTime": "23:00",
+    "departureTime": "13:00"
+  },
+  {
+    "trainNo": "14009",
+    "seats": [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1]],
+    "stationTimes": {
+      "Chennai": "05:00",
+      "Pune": "14:00",
+      "Mumbai": "18:00"
+    },
+    "arrivalTime": "18:00",
+    "departureTime": "05:00"
+  },
+  {
+    "trainNo": "14010",
+    "seats": [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1]],
+    "stationTimes": {
+      "Howrah": "06:30",
+      "Vijayawada": "17:00",
+      "Bangalore": "22:00"
+    },
+    "arrivalTime": "22:00",
+    "departureTime": "06:30"
+  },
+  {
+    "trainNo": "14011",
+    "seats": [[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1]],
+    "stationTimes": {
+      "Kolkata": "07:00",
+      "Chennai": "20:00",
+      "Bangalore": "23:30"
+    },
+    "arrivalTime": "23:30",
+    "departureTime": "07:00"
+  } ]

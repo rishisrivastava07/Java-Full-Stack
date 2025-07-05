@@ -21,6 +21,14 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
+
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.19.0'
+
+    // https://mvnrepository.com/artifact/at.favre.lib/bcrypt
+    // implementation 'at.favre.lib:bcrypt:0.10.2'
+    implementation 'org.mindrot:jbcrypt:0.4'
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
@@ -32,5 +40,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'org.example.App'
+    mainClass = 'ticket.booking.App'
 }
