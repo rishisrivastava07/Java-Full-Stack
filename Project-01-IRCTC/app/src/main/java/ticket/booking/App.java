@@ -8,7 +8,6 @@ import ticket.booking.services.TrainService;
 import ticket.booking.services.UserService;
 
 import java.io.IOException;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class App {
