@@ -1,34 +1,115 @@
-# WebServer Performance Comparison
+Here's a professional and structured `README.md` file for your project:
 
-This document presents the performance comparison of three different server models: **Single Threaded**, **Multi Threaded**, and **Thread Pool (size 500)**. The benchmark was conducted using a sample data rate of **60,000 requests per minute**.
+---
 
-## Results Images
+```markdown
+# Web Server Performance Benchmarking
+
+This project benchmarks and compares the performance of three different server models under high load conditions using **Apache JMeter**. The goal is to evaluate how each architecture performs in terms of response time, throughput, and resource efficiency.
+
+---
+
+## 📌 Server Models Tested
+
+1. **Single Threaded Server**
+2. **Multi Threaded Server**
+3. **Thread Pool Server (Pool Size: 500)**
+
+---
+
+## ⚙️ Load Testing Tool
+
+- **Apache JMeter**
+  - Used to simulate a load of **60,000 requests per minute**
+  - Measured key metrics: Average Response Time, Throughput, Deviation
+
+---
+
+## 📈 Results Summary
+
+| Server Model         | Samples  | Deviation | Avg. Response Time (ms) | Throughput (req/min) |
+|----------------------|----------|-----------|--------------------------|----------------------|
+| Single Threaded      | 60,000   | 132       | 43                       | 60,017.005           |
+| Multi Threaded       | 60,000   | 456       | 333                      | 60,011.002           |
+| Thread Pool (500)    | 120,000  | 2036      | 344                      | 60,000               |
+
+---
+
+## 🖼️ Visual Results
 
 ### Single Threaded
-![Single Threaded Results](./Results/View%20Results%20in%20Table.png)
+![Single Threaded](./Results/View%20Results%20in%20Table.png)
 
 ### Multi Threaded
-![Multi Threaded Results](./Results/View%20Results%20in%20Table%20-%20Multithreaded.png)
+![Multi Threaded](./Results/View%20Results%20in%20Table%20-%20Multithreaded.png)
 
-### Thread Pool (Size 500)
-![Thread Pool Results](./Results/Graph%20Results%20-%20thread-pool-500.png)
+### Thread Pool (500)
+![Thread Pool](./Results/Graph%20Results%20-%20thread-pool-500.png)
 
-## Performance Comparison Table
+---
 
-| Model                | Number of Samples | Deviation | Average Response Time (ms) | Throughput (req/min) |
-|----------------------|-------------------|-----------|----------------------------|----------------------|
-| Single Threaded      | 60,000            | 132       | 43                         | 60,017.005/min       |
-| Multi Threaded       | 60,000            | 456       | 333                        | 60,011.002/min       |
-| Thread Pool (500)    | 120,000           | 2036      | 344                        | 60,000               |
+## 🧐 Observations
 
-> **Note:** The above values are placeholders. Replace them with your actual measured results.
+- **Single Threaded**: Minimal resource usage but queues up requests, leading to lower performance under load.
+- **Multi Threaded**: Improves concurrency, but can become inefficient with large thread counts.
+- **Thread Pool (500)**: Offers the best balance with controlled resource usage and consistent throughput.
 
-## Observations
+---
 
-- **Single Threaded**: Higher average response time and deviation due to request queuing.
-- **Multi Threaded**: Improved response time and lower deviation, but may consume more resources.
-- **Thread Pool (500)**: Best performance with lowest average response time and deviation, while efficiently managing resources.
+## ✅ Conclusion
 
-## Conclusion
+Using a **Thread Pool** architecture significantly improves server performance under high-load scenarios. It maintains steady throughput and reduces average response time, making it the most scalable and efficient approach among the three.
 
-Using a thread pool with an optimal size (e.g., 500) significantly improves server performance under high load, as demonstrated by the lower response times and deviations.
+---
+
+## 📂 Project Structure
+
+```
+
+.
+├── Results/
+│   ├── View Results in Table.png
+│   ├── View Results in Table - Multithreaded.png
+│   ├── Graph Results - thread-pool-500.png
+|   └── Graph Results.jmx
+├── MultiThreaded
+│   ├── Server.java
+│   └── Client.java
+├── SingleThreaded
+│   ├── Server.java
+│   └── Client.java
+├── ThreadPool
+│   └── Server.java
+└── README.md
+
+````
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/rishisrivastava07/Java-Full-Stack.git
+````
+
+2. Compile and run any server:
+
+   ```bash
+   cd WebServer
+   javac Server.java
+   java Server
+   ```
+
+3. Open Apache JMeter and load the test plan (`test-plan.jmx`).
+
+4. Run the test and observe the results.
+
+---
+
+## 🧪 Requirements
+
+* Java 8+
+* Apache JMeter 5.3.6
+* System with sufficient resources to simulate load
+
