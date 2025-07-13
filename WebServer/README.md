@@ -60,8 +60,6 @@ Using a **Thread Pool** architecture significantly improves server performance u
 ## 📂 Project Structure
 
 ```
-
-.
 ├── Results/
 │   ├── View Results in Table.png
 │   ├── View Results in Table - Multithreaded.png
@@ -86,7 +84,8 @@ Using a **Thread Pool** architecture significantly improves server performance u
 1. Clone the repo:
    ```bash
    git clone https://github.com/rishisrivastava07/Java-Full-Stack.git
-````
+   
+   ```
 
 2. Compile and run any server:
 
