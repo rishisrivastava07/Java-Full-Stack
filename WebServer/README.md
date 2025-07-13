@@ -39,7 +39,7 @@ This project benchmarks and compares the performance of three different server m
 ![Multi Threaded](./Results/View%20Results%20in%20Table%20-%20Multithreaded.png)
 
 ### Thread Pool (500)
-![Thread Pool](./Results/Graph%20Results%20-%20thread-pool-500.png)
+![Thread Pool](./Results/View%20Results%20in%20Table%20-%20thread-pool-500.png)
 
 ---
 
