@@ -1,8 +1,3 @@
-Here's a professional and structured `README.md` file for your project:
-
----
-
-```markdown
 # Web Server Performance Benchmarking
 
 This project benchmarks and compares the performance of three different server models under high load conditions using **Apache JMeter**. The goal is to evaluate how each architecture performs in terms of response time, throughput, and resource efficiency.
